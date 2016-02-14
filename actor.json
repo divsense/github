@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "dvs-actors-dev-scm-github",
+        "type": "actorclass",
+        "text": "GitHub",
+        "prop": {
+            "tag": "github",
+            "icon": "github",
+            "aci": [
+                "mmap"
+            ],
+            "aco": [
+                "mmap"
+            ],
+            "render": {
+                "sideview": "actorclassitem",
+                "dropdown": "actordropdownitem"
+            },
+            "mart": "dvs-mart-dev-scm-github",
+            "behavior": "alien",
+            "template": "dvs-actors-dev-scm-github-template"
+        },
+        "branch": [
+            "dvs-actors-dev-scm-github-template"
+        ]
+    },
+    {
+        "nid": "dvs-actors-dev-scm-github-template",
+        "pid": "dvs-actors-dev-scm-github",
+        "type": "actor",
+        "text": "",
+        "prop": {
+            "actorclass": "dvs-actors-dev-scm-github",
+            "shape": "line",
+            "icon": "github",
+            "selected": false,
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": []
+    }
+]
