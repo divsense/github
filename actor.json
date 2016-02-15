@@ -83,6 +83,7 @@
         },
         "branch": [
 			"dvs-actors-dev-scm-github-settings-account"
+			,"dvs-actors-dev-scm-github-settings-repository"
         ]
     }
     ,{
@@ -136,6 +137,38 @@
 			},
 			"render": {
                 "mmap": "signal"
+            }
+        },
+        "branch": [
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-repository",
+        "pid": "dvs-actors-dev-scm-github-settings",
+        "type": "service",
+        "text": "Repository",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "icon": "archive",
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": [
+			"dvs-actors-dev-scm-github-settings-repository-input"
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-repository-input",
+        "pid": "dvs-actors-dev-scm-github-settings-repository",
+        "type": "text",
+        "text": "---",
+        "prop": {
+            "tag": "repository",
+            "selected": false,
+            "render": {
+                "mmap": "text"
             }
         },
         "branch": [
