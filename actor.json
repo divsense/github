@@ -12,17 +12,28 @@
             "aco": [
                 "mmap"
             ],
+            "ast": [
+                "mmap"
+            ],
             "render": {
                 "sideview": "actorclassitem",
                 "dropdown": "actordropdownitem"
             },
             "mart": "dvs-mart-dev-scm-github",
-            "behavior": "alien",
-            "template": "dvs-actors-dev-scm-github-template"
+            "behavior": "alien"
         },
         "branch": [
             "dvs-actors-dev-scm-github-template"
+            ,"dvs-actors-dev-scm-github-iframe"
         ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-iframe",
+        "pid": "dvs-actors-dev-scm-github",
+        "type": "actoriframe",
+        "prop": {
+            "space": "iframe",
+        }
     }
     ,{
         "nid": "dvs-actors-dev-scm-github-template",
