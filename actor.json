@@ -80,6 +80,7 @@
             }
         },
         "branch": [
+			"dvs-actors-dev-scm-github-settings-account"
         ]
     }
     ,{
@@ -95,6 +96,40 @@
             "render": {
                 "mmap": "text",
                 "dropdown": "reductiondropdownitem"
+            }
+        },
+        "branch": [
+			"dvs-actors-dev-scm-github-control-pull"
+			,"dvs-actors-dev-scm-github-control-push"
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-control-pull",
+        "pid": "dvs-actors-dev-scm-github-control",
+        "type": "service",
+        "text": "Pull",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "icon": "user",
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": [
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-control-push",
+        "pid": "dvs-actors-dev-scm-github-control",
+        "type": "service",
+        "text": "Pull",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "icon": "user",
+            "render": {
+                "mmap": "text"
             }
         },
         "branch": [
