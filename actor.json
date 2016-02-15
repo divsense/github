@@ -111,11 +111,11 @@
         "prop": {
             "mode": "fixed",
             "selected": false,
-			"command": {
+			"signal": {
 				"name":"pull"
 			},
             "render": {
-                "mmap": "command"
+                "mmap": "signal"
             }
         },
         "branch": [
@@ -129,11 +129,11 @@
         "prop": {
             "mode": "fixed",
             "selected": false,
-			"command": {
+			"signal": {
 				"name":"push"
 			},
 			"render": {
-                "mmap": "command"
+                "mmap": "signal"
             }
         },
         "branch": [
