@@ -24,16 +24,7 @@
         },
         "branch": [
             "dvs-actors-dev-scm-github-template"
-            ,"dvs-actors-dev-scm-github-iframe"
         ]
-    }
-    ,{
-        "nid": "dvs-actors-dev-scm-github-iframe",
-        "pid": "dvs-actors-dev-scm-github",
-        "type": "actoriframe",
-        "prop": {
-            "space": "iframe",
-        }
     }
     ,{
         "nid": "dvs-actors-dev-scm-github-template",
