@@ -23,8 +23,8 @@
         "branch": [
             "dvs-actors-dev-scm-github-template"
         ]
-    },
-    {
+    }
+    ,{
         "nid": "dvs-actors-dev-scm-github-template",
         "pid": "dvs-actors-dev-scm-github",
         "type": "actor",
@@ -36,8 +36,66 @@
             "selected": false,
             "render": {
                 "mmap": "text"
+            },
+            "reduction": {
+                "filters": {
+                    "total": [
+						"dvs-actors-dev-scm-github-settings",
+						"dvs-actors-dev-scm-github-control"
+                    ],
+                    "active": [
+						"dvs-actors-dev-scm-github-settings",
+						"dvs-actors-dev-scm-github-control"
+                    ]
+                },
+                "capsules": {
+                    "total": [],
+                    "active": []
+                },
+                "swaps": {
+                    "total": [],
+                    "active": [],
+                    "keep": []
+                }
             }
         },
-        "branch": []
+        "branch": [
+			"dvs-actors-dev-scm-github-settings",
+			"dvs-actors-dev-scm-github-control"
+			]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings",
+        "pid": "dvs-actors-dev-scm-github-template",
+        "type": "service",
+        "text": "Settings",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "icon": "gear",
+            "render": {
+                "mmap": "text",
+                "dropdown": "reductiondropdownitem"
+            }
+        },
+        "branch": [
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-control",
+        "pid": "dvs-actors-dev-scm-github-template",
+        "type": "service",
+        "text": "Control",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "icon": "sliders",
+            "render": {
+                "mmap": "text",
+                "dropdown": "reductiondropdownitem"
+            }
+        },
+        "branch": [
+        ]
     }
 ]
