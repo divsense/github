@@ -73,6 +73,7 @@
             "mode": "fixed",
             "selected": false,
             "icon": "gear",
+            "styles": ["font-weight:bold"],
             "render": {
                 "mmap": "text",
                 "dropdown": "reductiondropdownitem"
@@ -90,9 +91,89 @@
             "mode": "fixed",
             "selected": false,
             "icon": "sliders",
+            "styles": ["font-weight:bold"],
             "render": {
                 "mmap": "text",
                 "dropdown": "reductiondropdownitem"
+            }
+        },
+        "branch": [
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-account",
+        "pid": "dvs-actors-dev-scm-github-settings",
+        "type": "service",
+        "text": "Account",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "icon": "user",
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": [
+			"dvs-actors-dev-scm-github-settings-account-username"
+			,"dvs-actors-dev-scm-github-settings-account-password"
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-account-username",
+        "pid": "dvs-actors-dev-scm-github-settings-account",
+        "type": "service",
+        "text": "Username",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": [
+			"dvs-actors-dev-scm-github-settings-account-username-input"
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-account-password",
+        "pid": "dvs-actors-dev-scm-github-settings-account",
+        "type": "service",
+        "text": "Password",
+        "prop": {
+            "mode": "fixed",
+            "selected": false,
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": [
+			"dvs-actors-dev-scm-github-settings-account-password-input"
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-account-username-input",
+        "pid": "dvs-actors-dev-scm-github-settings-account-username",
+        "type": "text",
+        "text": "---",
+        "prop": {
+            "selected": false,
+            "render": {
+                "mmap": "text"
+            }
+        },
+        "branch": [
+			"dvs-actors-dev-scm-github-settings-account-password-input"
+        ]
+    }
+    ,{
+        "nid": "dvs-actors-dev-scm-github-settings-account-password-input",
+        "pid": "dvs-actors-dev-scm-github-settings-account-password",
+        "type": "text",
+        "text": "---",
+        "prop": {
+            "selected": false,
+            "render": {
+                "mmap": "text"
             }
         },
         "branch": [
