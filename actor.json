@@ -55,7 +55,7 @@
                 "swaps": {
                     "total": [],
                     "active": [],
-                    "keep": []
+                    "exclude": []
                 }
             }
         },
