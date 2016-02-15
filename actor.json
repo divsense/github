@@ -111,9 +111,11 @@
         "prop": {
             "mode": "fixed",
             "selected": false,
-            "icon": "user",
+			"command": {
+				"name":"pull"
+			},
             "render": {
-                "mmap": "text"
+                "mmap": "command"
             }
         },
         "branch": [
@@ -123,13 +125,15 @@
         "nid": "dvs-actors-dev-scm-github-control-push",
         "pid": "dvs-actors-dev-scm-github-control",
         "type": "service",
-        "text": "Pull",
+        "text": "Push",
         "prop": {
             "mode": "fixed",
             "selected": false,
-            "icon": "user",
-            "render": {
-                "mmap": "text"
+			"command": {
+				"name":"push"
+			},
+			"render": {
+                "mmap": "command"
             }
         },
         "branch": [
@@ -191,13 +195,13 @@
         "type": "text",
         "text": "---",
         "prop": {
+            "tag": "username",
             "selected": false,
             "render": {
                 "mmap": "text"
             }
         },
         "branch": [
-			"dvs-actors-dev-scm-github-settings-account-password-input"
         ]
     }
     ,{
@@ -206,6 +210,7 @@
         "type": "text",
         "text": "---",
         "prop": {
+            "tag": "password",
             "selected": false,
             "render": {
                 "mmap": "text"
